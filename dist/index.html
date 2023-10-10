@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do</title>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <div id="nav">
+    <button id="side-btn">Burger Icon</button>
+    <div id="side-menu"></div>
+    <button id="add">Plus Icon</button>
+  </div>
+  <div id="content">
+    <dialog id="dialog">
+      <form id="form" method="dialog">
+        <label for="task">To do:</label>
+        <input id="task-name" type="text" required autofocus>
+        <label for="date">Date:</label>
+        <input id="date" type="date" required>
+        <label for="details">*Details:</label>
+        <textarea id="details" type="textarea" rows="2" cols="20"></textarea>
+        <input id="submit" type="submit">
+      </form>
+    </dialog>
+  </div>
+</body>
+</html>
